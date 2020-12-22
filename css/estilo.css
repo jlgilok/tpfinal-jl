@@ -1,0 +1,277 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    color: lightslategray;
+}
+
+
+header {
+    width: 100%;
+    height: 64px;
+    background-color: #8f9622;
+    margin-bottom: 50px;
+
+}
+
+header .logo {
+    width: 20%;
+    height: 64px;
+    float: left;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .menu {
+    width: 60%;
+    height: 40px;
+    background-color: #8f9622;
+    float: left;
+  
+    
+}
+
+header .redes-sociales{
+    width: 20%;
+    height: 64px;
+    float: left;
+    background-color:#8f9622;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Menu */
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    height: 64px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li {
+    margin: 0% 2%;
+    
+
+}
+
+
+
+ul li a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0% 15%;
+   
+
+}
+
+ul li a:hover {
+    
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.cuerpo{
+    width:100%;
+    height: 100px;
+    clear: both;
+}
+
+.cuerpo2{
+    width: 100%;
+    height:50px;
+    
+    clear: both;
+}
+
+/** Footer **/ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+footer{
+    background:#8f9622;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    margin-top: 200px;
+    
+}
+
+
+.container-footer-total{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1 {
+    max-width: 400px;
+
+}
+.colum1 h1{
+    font-size: 20px;
+}
+
+.colum1 p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+
+}
+
+.colum2 h1 {
+    font-size: 22px;
+}
+
+ .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+} 
+
+.row p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.colum3 {
+    font-size: 15px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+
+.row2 p{
+    margin-left: 10px;
+    max-width: 120px;
+   
+} 
+
+
+
+
+
+/** Trabajando contenedores**/
+
+.primer-contenedor{
+    width:100% ;
+    
+    padding: 0px 120px;
+  
+}
+.primer-contenedor img{
+    width: 100%;
+   
+}
+
+
+
+
+}
+.segundo-contenedor{
+    width: 100%;
+    
+
+
+}
+
+.primercon{
+    width: 33.33%;
+    
+    float: left;
+    padding: 50px;
+
+}
+.primercon img{
+    width: 100%;
+    
+}
+
+.segcont{
+    width: 33.33%;
+    /*height: 400px;*/
+    float: left;
+    padding: 50px;
+}
+.segcont img{
+    width: 100%;
+    /*height: 400px;*/
+}
+
+.tercont{
+    width: 33.33%;
+   /* height: 400px;*/
+    float:left;
+    padding: 50px;
+}
+.tercont img{
+    width: 100%;
+    /*height: 400px;*/
+}
+
+
+.tercer-contenedor {
+    width: 100%;
+    /*height: 200px;*/
+   
+    
+    
+}
+h1{
+    text-align: center;
+    color: black;
+   
+}
+
+
+.ilparadiso img{
+   
+    float: left;
+}
+
+
+.magnificat img{
+    
+    float: right;
+}
+
+.titulodesarrollo{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
